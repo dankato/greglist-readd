@@ -1,0 +1,128 @@
+/* Global */
+
+	* {
+		box-sizing: border-box;
+	}
+
+	body {
+		padding: 80px;
+		font-family: arial, sans-serif;
+	}
+
+
+/* Navigation Bar */
+
+	header {
+		position: fixed;				/* header's position on the screen, stays where it is */
+		top: 0;							/* entire nav bar positioning controls for up down */
+		left: 0;						
+		right: 0;
+		padding: 10px;					/* height of the nav bar */
+		border: 1px solid black;
+		background-color: Azure;	
+	}
+
+	.logo {
+		font-weight: bold;				/* touches greg's list text only */
+	}
+
+	.topnav {
+		position: absolute;				/* touches post and account text only */
+		top: 10px;						/* positions the text up down */
+		right: 20px;			
+	}
+
+	.navlink {
+		font-size: 18px;				/* text post and account font sizing */
+		padding:  5px;					/* padding inbetween the 2 text */
+	}
+
+	a {
+		text-decoration: none;			/* removes the default underline for url */
+	}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+/* Search Field */
+
+
+.searchfield {
+	margin-bottom: 30px;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+}
+
+.searchfield input {
+	font-size: 17px;
+	font-weight: bold;
+	line-height: 30px;
+	height: 30px;
+	width: 400px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 0 5px 0 8px;
+}
+
+.searchfield .searchbutton {
+	font-size: 17px;
+	width: 37px;						/* size of the button */
+	height: auto;						/* automagic applied here */
+	padding: 3px 6px 3px 6px;			/* spacing inbetween image and border */
+	border: 1px solid pink;				/* button border color */
+	border-radius: 5px;					/* bezel around the button */
+	background-color: white;			/* without this, it will be transparent, the spacing mentioned above */
+
+}
+
+.pages {
+	display: inline-block;
+	font-size: 0;
+	
+	margin-bottom: 30px;		
+	border: 1px solid gray;	
+	border-radius: 3px;					/* bezel around the page buttons */
+}
+
+.pagebutton {
+	font-size: 16px;
+	display: inline-block;
+	padding: 8px 15px;					/* space within the buttons */
+	border-radius: 3px;
+}
+
+.pagedisplay {
+	font-size: 16px;
+	padding: 0 30px;
+	padding: 8px 25px;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.searchbutton {
+	vertical-align: bottom;				/* aligning with the search bar */
+}
+
+.listings {
+
+}
+
+.listing {
+	list-style: none;
+	margin-bottom: 15px;
+}
+
+.listingdate, .listinglocation {
+	color: gray;
+}
+
+.listingtitle {
+	font-weight: bold;
+	font-size: 17px;
+	margin-right: 8px; 
+	margin-left: 8px;
+}
